@@ -1,2 +1,2 @@
 # KCFED-2018
-KCFED Code-Athon
+KCFED Code-A-Thon
