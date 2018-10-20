@@ -1,36 +1,71 @@
 <?php include('server.php') ?>
-<!DOCTYPE html>
+<!DOCTYPE html lang="en">
 <html>
 <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Registration system PHP and MySQL</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/4-col-portfolio.css" rel="stylesheet">
 </head>
 <body>
-<div class="header">
-    <h2>Register</h2>
+<nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#"><h3>header1</h3></a>
+
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div class="card card-signin my-5">
+                <div class="card-body">
+
+                    <form class="form-signin" method="post" action="register.php">
+                        <?php include('errors.php'); ?>
+                        <div class="form-label-group">
+                            <input type="email" name="email" value="<?php echo $email; ?>"class="form-control" placeholder="JohnDoe@somewhere.com" required autofocus>
+                            <label for="email">Email address</label>
+                        </div>
+
+                        <div class="form-label-group">
+                            <input type="password" id="password" name="password_1" class="form-control" placeholder="*****" required>
+                            <label for="password">Password</label>
+                        </div>
+
+                        <div class="form-label-group">
+                            <input type="password" id="password" name="password_2" class="form-control" placeholder="*****" required>
+                            <label for="password">Password</label>
+                        </div>
+
+
+                        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" name="reg_user">Sign up</button>
+                        <hr class="my-4">
+                    </form>
+
+                    <p>
+                        Already a member? <a href="login.php">Sign in</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<form method="post" action="register.php">
-    <?php include('errors.php'); ?>
-    <div class="input-group">
-        <label>Email</label>
-        <input type="email" name="email" value="<?php echo $email; ?>">
-    </div>
+<br/>
+<br/>
 
-    <div class="input-group">
-        <label>Password</label>
-        <input type="password" name="password_1">
-    </div>
-    <div class="input-group">
-        <label>Confirm password</label>
-        <input type="password" name="password_2">
-    </div>
-    <div class="input-group">
-        <button type="submit" class="btn" name="reg_user">Register</button>
-    </div>
-    <p>
-        Already a member? <a href="login.php">Sign in</a>
-    </p>
-</form>
+
+
+    <!-- /.container -->
+</footer>
 </body>
 </html>

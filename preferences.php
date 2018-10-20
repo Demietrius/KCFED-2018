@@ -121,15 +121,7 @@
       
 
     
-    <!-- /.container -->
 
-    <!-- Footer -->
-    <footer class="py-4 bg-success fixed-bottom">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
-      </div>
-      <!-- /.container -->
-    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
