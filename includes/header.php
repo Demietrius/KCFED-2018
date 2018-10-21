@@ -27,7 +27,7 @@ if (isset($_GET['logout'])) {
 
     <!-- Custom styles for this template -->
     <link href="css/4-col-portfolio.css" rel="stylesheet">
-
+    <link href="vendor/bootstrap/css/custom.css" rel="stylesheet">
 </head>
 
 <body>
