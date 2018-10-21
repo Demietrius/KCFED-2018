@@ -14,16 +14,26 @@
 <div id="carouselExampleControls" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-        <h1 class="my-4">Day1
+
+    <h1 class="my-4">Day1
         <small>Secondary Text</small>
-      </h1>
+    </h1>
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+          <?php
+            /* i % 3 == 0
+                if i > 0 then end last carousel
+                insert a new carousel item header
+            */
+          ?>
+
+
+        <!-- single card -->
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
           <div class="card h-80">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#" id="img_0"><img class="card-img-top" src="https://i.redd.it/eosfqubctht11.jpg" alt=""></a>  <!-- img ID//output img src here-->
             <div class="card-body">
                <div class="container " style="align-content: center">
-                   <h4 class="card-title">
+                   <h4 class="card-title" id="name_0"> <!-- name ID //output meal name and a href here -->
                        <a href="#">Project One</a>
                    </h4>
 
@@ -33,21 +43,25 @@
                    <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
                        Dislike
                    </button>
-                   <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                   <button type="button" class="btn btn-dark"  aria-pressed="false" >
                        Re-roll
                    </button>
                </div>
             </div>
           </div>
         </div>
+          <!-- end single card-->
+
+          <!-- single card -->
           <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
               <div class="card h-80">
-                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <a href="#"><img class="card-img-top" src="https://i.redd.it/eosfqubctht11.jpg" alt=""></a>
                   <div class="card-body">
                       <div class="container " style="align-content: center">
                           <h4 class="card-title">
                               <a href="#">Project One</a>
                           </h4>
+
                           <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
                               Like
                           </button>
@@ -61,14 +75,18 @@
                   </div>
               </div>
           </div>
+          <!-- end single card-->
+
+          <!-- single card -->
           <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
               <div class="card h-80">
-                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <a href="#"><img class="card-img-top" src="https://i.redd.it/eosfqubctht11.jpg" alt=""></a>
                   <div class="card-body">
                       <div class="container " style="align-content: center">
                           <h4 class="card-title">
                               <a href="#">Project One</a>
                           </h4>
+
                           <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
                               Like
                           </button>
@@ -82,6 +100,8 @@
                   </div>
               </div>
           </div>
+          <!-- end single card-->
+
       </div>
     </div>
     <div class="carousel-item">

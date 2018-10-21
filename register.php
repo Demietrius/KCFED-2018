@@ -1,3 +1,4 @@
+
 <?php include('processlogin.php') ?>
 <!DOCTYPE html lang="en">
 <html>
@@ -12,7 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="vendor/bootstrap/css/custom.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/4-col-portfolio.css" rel="stylesheet">
 </head>
@@ -43,7 +44,7 @@
 
                         <div class="form-label-group">
                             <input type="password" id="password" name="password_2" class="form-control" placeholder="*****" required>
-                            <label for="password">Password</label>
+                            <label for="password"> Confirm Password</label>
                         </div>
 
 
