@@ -12,9 +12,10 @@
         let userMeals = JSON.parse(jsonUserMeals);
         console.log(userMeals);
         //loop each day carousel
+        let k = 0;
         for(let i = 0; i < 7; i++) {
             for(let j = 0; j < 3; j++) {
-                addMealCard(i + 1, userMeals[0]);
+                addMealCard(i + 1, userMeals[k++]);
             }
         }
     });
@@ -25,16 +26,14 @@
     }
 
     function addMealCard(dayNum, userMeal) {
-        /*let tempUserMeal = JSON.parse(userMeal);
-        let userMealObject = JSON.parse(GetRecipeFromId(tempUserMeal->meal_id));*/
-
+        let userMealObject = GetRecipeFromId(userMeal.meal_id);
         let cardHtml = "<div class=\"col-lg-4 col-md-6 col-sm-6 portfolio-item\" id=\"meal_1\">\n" +
             "          <div class=\"card h-80\">\n" +
-            "            <a href=\"#\" id=\"img_0\"><img class=\"card-img-top\" src=\"https://i.redd.it/eosfqubctht11.jpg\" alt=\"\"></a>  <!-- img ID//output img src here-->\n" +
+            "            <a href=\"" + userMealObject[0].url + "\" target=\"_blank\" id=\"img_0\"><img class=\"card-img-top\" src=\"" + userMealObject[0].image + "\" alt=\"\"></a>  <!-- img ID//output img src here-->\n" +
             "            <div class=\"card-body\">\n" +
             "               <div class=\"container \" style=\"align-content: center\">\n" +
             "                   <h4 class=\"card-title\" id=\"name_0\"> <!-- name ID //output meal name and a href here -->\n" +
-            "                       <a href=\"#\">Project One</a>\n" +
+            "                       <a href=\"#\">" + userMealObject[0].label + "</a>\n" +
             "                   </h4>\n" +
             "                   <div class=\"btn-group btn-group-toggle\" data-toggle=\"buttons\">\n" +
             "                       <label class=\"btn btn-success \">\n" +
