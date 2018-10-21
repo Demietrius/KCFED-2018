@@ -7,7 +7,7 @@ let dinnerMeals = [];
 
 function SendMealToServer(mealId, type)
 {
-    let query = '/populateMeals.php?mealid=' +
+    let query = './brainmush/populateMeals.php?mealid=' +
                 mealId + '&type=' + type;
 
     var xhr = createCORSRequest('POST', query);
@@ -57,6 +57,42 @@ function GetMealFromServer()
     xhr.send();
 }
 
+function GetRecipeFromId(mealId)
+{
+    let query = 'https://api.edamam.com/search?' +
+                'r=http%3A%2F%2Fwww.edamam.com%2Fontologies%2Fedamam.owl%23recipe_' +
+                mealId +
+                '&app_id=' + ID +
+                '&app_key=' + KEY;
+
+    var xhr = createCORSRequest('GET', query);
+    if (!xhr)
+    {
+        alert('CORS not supported');
+        return;
+    }
+
+    // Response handlers.
+    xhr.onload = function()
+    {
+
+        // Parse json string to object
+        let response = JSON.parse(xhr.responseText);
+
+        console.log(response);
+        //let arr = response.hits;
+        //arr = shuffle(arr);
+    };
+
+    xhr.onerror = function()
+    {
+        console.log('Woops, there was an error making the request.');
+    };
+
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send();
+}
+
 function GetAttributesFromNum(num)
 {
     let mealType;
@@ -83,6 +119,7 @@ function GetAttributesFromNum(num)
 
 function GenerateMeals()
 {
+    //console.log("Generating meals...");
     for (let i=0; i<3; i++)
     {
         let arrayFromNum = GetAttributesFromNum(i);
