@@ -58,7 +58,7 @@
       
       <!-- /.row -->
         
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
         <h1 class="my-4">Day1
@@ -66,38 +66,84 @@
       </h1>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
-          <div class="card h-100">
+          <div class="card h-80">
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
             <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project One</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+               <div class="container " style="align-content: center">
+                   <h4 class="card-title">
+                       <a href="#">Project One</a>
+                   </h4>
+
+                   <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                       Like
+                   </button>
+                   <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                       Dislike
+                   </button>
+                   <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                       Re-roll
+                   </button>
+
+               </div>
+
+
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_2">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Two</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
+
+
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_3">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Three</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-            </div>
+
+
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
           </div>
-        </div>
           
       </div>
     </div>
@@ -106,39 +152,85 @@
         <small>Secondary Text</small>
       </h1>
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project One</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-            </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_5">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Two</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
+
+
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false">
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_6">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Three</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-            </div>
+
+
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
           </div>
-        </div>
           
       </div>
     </div>
@@ -147,39 +239,85 @@
         <small>Secondary Text</small>
       </h1>
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_7">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project One</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-            </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_8">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Two</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
+
+
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_9">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Project Three</a>
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-            </div>
+
+
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
           </div>
-        </div>
           
       </div>
     </div>
