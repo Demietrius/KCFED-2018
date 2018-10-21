@@ -79,9 +79,7 @@ function GetRecipeFromId(mealId)
         // Parse json string to object
         let response = JSON.parse(xhr.responseText);
 
-        console.log(response);
-        //let arr = response.hits;
-        //arr = shuffle(arr);
+        return response;
     };
 
     xhr.onerror = function()
