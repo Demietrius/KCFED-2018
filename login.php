@@ -1,4 +1,4 @@
-<?php require('processlogin.php') ?>
+<?php require('processlogin.php'); ?>
 <!DOCTYPE html lang="en">
 <html>
 <head>
