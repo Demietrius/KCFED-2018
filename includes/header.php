@@ -26,12 +26,12 @@
     <link href="css/4-col-portfolio.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/custom.css" rel="stylesheet">
 </head>
-<body class="bg">
+<body>
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
     <div class="container">
         <img src="http://www.download82.com/images/produse/iconuri/limewire.png" alt="">
-        <a class="navbar-brand" href="index.php"><h3>tasteBuds</h3></a>
+        <a class="navbar-brand" href="index.php"><h3>Taste Bud</h3></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
