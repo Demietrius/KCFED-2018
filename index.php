@@ -64,61 +64,37 @@
 <div id="carouselExampleControls" class="carousel slide" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active" id="day-1">
-    <h1 class="my-4">Day1
-        <small>Secondary Text</small>
-    </h1>
+    <h1 class="my-4">Sunday</h1>
       <div class="row" id="card-1">
       </div>
     </div>
     <div class="carousel-item" id="day-2">
-        <h1 class="my-4">Day 2
-        <small>Secondary Text</small>
-      </h1>
+        <h1 class="my-4">Monday</h1>
       <div class="row" id="card-2">
-
       </div>
     </div>
     <div class="carousel-item" id="day-3">
-        <h1 class="my-4">Day 3
-        <small>Secondary Text</small>
-      </h1>
+        <h1 class="my-4">Tuesday</h1>
       <div class="row" id="card-3">
-
       </div>
     </div>
-
     <div class="carousel-item" id="day-4">
-        <h1 class="my-4">Day 4
-            <small>Secondary Text</small>
-        </h1>
+        <h1 class="my-4">Wednesday</h1>
         <div class="row" id="card-4">
-
         </div>
     </div>
-
     <div class="carousel-item" id="day-5">
-        <h1 class="my-4">Day 5
-            <small>Secondary Text</small>
-        </h1>
-        <div class="row" id="card-5">
-        </div>
+        <h1 class="my-4">Thursday</h1>
+        <div class="row" id="card-5"></div>
     </div>
-
     <div class="carousel-item" id="day-6">
-        <h1 class="my-4">Day 6
-            <small>Secondary Text</small>
-        </h1>
+        <h1 class="my-4">Friday</h1>
         <div class="row" id="card-6">
-
         </div>
     </div>
-
     <div class="carousel-item" id="day-7">
-        <h1 class="my-4">Day 7
-            <small>Secondary Text</small>
-        </h1>
+        <h1 class="my-4">Saturday</h1>
         <div class="row" id="card-7">
-
         </div>
     </div>
   </div>
