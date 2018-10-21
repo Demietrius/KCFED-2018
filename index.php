@@ -5,7 +5,7 @@
     //echo '<script type="text/javascript">GetRecipeFromId("80ffa6f067ed26dd624de1afcc838448");</script>';
 
     include("./brainmush/sendMeals.php");
-?>ssss
+?>
     <!-- Page Content -->
     <div class="container ">
 
