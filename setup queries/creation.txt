@@ -23,8 +23,9 @@ CREATE TABLE favorite (
 
 CREATE TABLE user_meal (
 	user_id MEDIUMINT UNSIGNED NOT NULL,
-	meal_id MEDIUMINT UNSIGNED NOT NULL,
+	meal_id VARCHAR(64) NOT NULL,
 	meal_date DATETIME NOT NULL,
+	meal_type ENUM('breakfast', 'lunch', 'dinner'),
 	FOREIGN KEY (user_id) REFERENCES user(id)
 );
 
