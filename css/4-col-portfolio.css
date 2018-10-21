@@ -63,3 +63,22 @@ body {
 /* Hide default HTML checkbox */
 .switch input {display:none;}
 
+
+body, html {
+    height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url("http://www.kinyu-z.net/data/wallpapers/38/834333.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+

@@ -13,10 +13,26 @@
     <link href="css/4-col-portfolio.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/custom.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg">
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
     <div class="container">
+        <img src="http://www.download82.com/images/produse/iconuri/limewire.png" alt="">
         <a class="navbar-brand" href="#"><h3>tasteBuds</h3></a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#"> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"> </a>
+            </li>
+        </ul>
     </div>
 </nav>
 <div class="container">
