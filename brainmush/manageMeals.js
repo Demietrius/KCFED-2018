@@ -30,6 +30,33 @@ function SendMealToServer(mealId, type)
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send();
 }
+
+function GetMealFromServer()
+{
+    let query = '';
+
+    var xhr = createCORSRequest('POST', query);
+
+    if (!xhr)
+    {
+        alert('CORS not supported');
+        return;
+    }
+
+    // Response handlers.
+    xhr.onload = function()
+    {
+
+    };
+
+    xhr.onerror = function()
+    {
+        console.log('Woops, there was an error making the request.');
+    };
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send();
+}
+
 function GetAttributesFromNum(num)
 {
     let mealType;
@@ -61,8 +88,6 @@ function GenerateMeals()
         let arrayFromNum = GetAttributesFromNum(i);
 
         makeCORSRequest(arrayFromNum[0], arrayFromNum[1]);
-
-        //console.log(arrayFromNum[1]);
     }
 
     for (let i=0; i<3; i++)
