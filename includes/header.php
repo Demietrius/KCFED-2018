@@ -29,7 +29,8 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#"><h3>tasteBuds</h3></a>
+        <img src="http://www.download82.com/images/produse/iconuri/limewire.png" alt="">
+        <a class="navbar-brand" href="index.php"><h3>tasteBuds</h3></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

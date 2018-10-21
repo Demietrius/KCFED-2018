@@ -20,8 +20,23 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#"><h3>tasteBuds</h3></a>
 
+        <img src="http://www.download82.com/images/produse/iconuri/limewire.png" alt="">
+        <a class="navbar-brand" href="#"><h3>tasteBuds</h3></a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#"> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"> </a>
+            </li>
+        </ul>
     </div>
 </nav>
 <div class="container">
