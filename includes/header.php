@@ -42,7 +42,7 @@ if (isset($_GET['logout'])) {
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="menu.php">My Menu</a>
+                    <a class="nav-link" href="index.php">My Menu</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="grocerylist.php">Grocery List</a>
