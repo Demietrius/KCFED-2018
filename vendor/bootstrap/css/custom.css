@@ -1,0 +1,19 @@
+root {
+    --green: #0b725c!important;
+    --success: #0b725c!important;
+    --blue: #24518F!important;
+    --cyan: #379782!important;
+
+}
+
+.btn {
+    background-color: #24518F;
+}
+
+.navbar-dark {
+    background-image: linear-gradient(#1A8C73, #0B725B);
+}
+
+.card-body {
+    text-align: center!important;
+}
