@@ -34,21 +34,17 @@ function SendMealToServer(mealId, type)
 function GetMealFromServer()
 {
     let query = '';
-
     var xhr = createCORSRequest('POST', query);
-
     if (!xhr)
     {
         alert('CORS not supported');
         return;
     }
-
     // Response handlers.
     xhr.onload = function()
     {
 
     };
-
     xhr.onerror = function()
     {
         console.log('Woops, there was an error making the request.');
@@ -59,6 +55,7 @@ function GetMealFromServer()
 
 function GetRecipeFromId(mealId)
 {
+    let response;
     let query = 'https://api.edamam.com/search?' +
                 'r=http%3A%2F%2Fwww.edamam.com%2Fontologies%2Fedamam.owl%23recipe_' +
                 mealId +
@@ -75,11 +72,8 @@ function GetRecipeFromId(mealId)
     // Response handlers.
     xhr.onload = function()
     {
-
         // Parse json string to object
-        let response = JSON.parse(xhr.responseText);
-
-        return response;
+        response = JSON.parse(xhr.responseText);
     };
 
     xhr.onerror = function()
@@ -89,6 +83,7 @@ function GetRecipeFromId(mealId)
 
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.send();
+    return response;
 }
 
 function GetAttributesFromNum(num)
