@@ -17,11 +17,11 @@
             <div class="card-body mx-auto">
                  <h4 class="card-title">Grocery List:</h4>
                 
-                <div id="item1">
+                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
                     <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
+                    <span class="card-text" >Item:         </span>
+                    <span class="card-text" >Amount:         </span>
+                    <span class="card-text" >Units:            </span> <br/>
                 </div>
                 
                 <div id="item1">

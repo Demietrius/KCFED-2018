@@ -30,10 +30,10 @@
         <!-- single card -->
           <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
           <div class="card h-80">
-            <a href="#"><img class="card-img-top" src="https://i.redd.it/eosfqubctht11.jpg" alt=""></a>
+            <a href="#" id="img_0"><img class="card-img-top" src="https://i.redd.it/eosfqubctht11.jpg" alt=""></a>  <!-- img ID//output img src here-->
             <div class="card-body">
                <div class="container " style="align-content: center">
-                   <h4 class="card-title">
+                   <h4 class="card-title" id="name_0"> <!-- name ID //output meal name and a href here -->
                        <a href="#">Project One</a>
                    </h4>
 
@@ -43,7 +43,7 @@
                    <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
                        Dislike
                    </button>
-                   <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                   <button type="button" class="btn btn-dark"  aria-pressed="false" >
                        Re-roll
                    </button>
                </div>
