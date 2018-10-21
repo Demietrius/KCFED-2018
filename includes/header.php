@@ -8,7 +8,8 @@
         unset($_SESSION['email']);
         header("location: login.php");
     }
-     require ('mysqli_connect.php');
+
+     require ("mysqli_connect.php");
 ?>
 
 <!DOCTYPE html>

@@ -55,6 +55,9 @@ if (isset($_POST['login_user'])) {
         $query = "SELECT * FROM user WHERE email='$email' AND password='$password'";
         $results = mysqli_query($dbc, $query);
         if (mysqli_num_rows($results) == 1) {
+            while($row = mysqli_fetch_array($results, MYSQLI_ASSOC))
+                $_SESSION['uid'] = $row['id'];
+
             $_SESSION['email'] = $email;
             $_SESSION['success'] = "You are now logged in";
             header('location: index.php');

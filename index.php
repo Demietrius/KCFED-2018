@@ -1,9 +1,16 @@
-<?php require("./includes/header.php"); ?>
+
+<?php
+    require("./includes/header.php");
+    echo '<script src="./brainmush/manageMeals.js"></script>';
+    //echo '<script type="text/javascript">GetRecipeFromId("80ffa6f067ed26dd624de1afcc838448");</script>';
+
+    include("./brainmush/sendMeals.php");
+?>ssss
     <!-- Page Content -->
     <div class="container ">
 
       <!-- Page Heading -->
-      
+
 
         
         
