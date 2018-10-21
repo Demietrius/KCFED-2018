@@ -14,7 +14,6 @@ if ($result->num_rows > 0) {
     }
     $jsonUserMeals = json_encode($userMeals);
 } else {
-    //echo "0 results";
     echo '<script type="text/javascript">',
             'GenerateMeals();',
             '</script>';
