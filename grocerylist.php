@@ -1,7 +1,10 @@
 <?php require("./includes/header.php"); ?>
 
     <!-- Page Content -->
+<script>
 
+
+</script>
 
 
 
@@ -15,72 +18,17 @@
     <div class="portfolio-item" id="item">
         <div class="text-center border border-light  bg-light  ">
             <div class="card-body ">
-                 <h4 class="card-title">Grocery List:</h4>
-                
-                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" >Item:         </span>
-                    <span class="card-text" >Amount:         </span>
-                    <br/><br/>
-                </div>
+                <h4 class="card-title">Grocery List:</h4>
 
                 <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
                     <label class="checkbox"><input type="checkbox" value="">Option 1</label>
                     <span class="card-text" >Item:         </span>
                     <span class="card-text" >Amount:         </span>
-                    <br/><br/>
+                <br/><br/>
                 </div>
-
-                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" >Item:         </span>
-                    <span class="card-text" >Amount:         </span>
-                    <br/><br/>
-                </div>
-
-                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" >Item:         </span>
-                    <span class="card-text" >Amount:         </span>
-                    <br/><br/>
-                </div>
-
-
-                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" >Item:         </span>
-                    <span class="card-text" >Amount:         </span>
-                    <br/><br/>
-                </div>
-
-                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" >Item:         </span>
-                    <span class="card-text" >Amount:         </span>
-                    <br/><br/>
-                </div>
-
-                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" >Item:         </span>
-                    <span class="card-text" >Amount:         </span>
-                    <br/><br/>
-                </div>
-
-                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" >Item:         </span>
-                    <span class="card-text" >Amount:         </span>
-                    <br/><br/>
-                </div>
-                
-                
-                
-                
-                
             </div>
-          </div>
         </div>
+    </div>
  
     
     

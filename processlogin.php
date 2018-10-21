@@ -32,9 +32,13 @@ if (isset($_POST['reg_user'])) {
     // Finally, register user if there are no errors in the form
     if (count($errors) == 0) {
         $password = md5($password_1);//encrypt the password before saving in the database
-        $query = "INSERT INTO user (email, password) 
-  			  VALUES('$email', '$password')";
+        $query = "INSERT INTO user (email, password) VALUES('$email', '$password')";
         mysqli_query($dbc, $query);
+        $query = "SELECT * FROM user WHERE email='$email' AND password='$password'";
+        $result = mysqli_query($dbc, $query);
+        if (mysqli_num_rows($result) == 1)
+            while($row = mysqli_fetch_array($result, MYSQLI_ASSOC))
+                $_SESSION['uid'] = $row['id'];
         $_SESSION['email'] = $email;
         $_SESSION['success'] = "You are now logged in";
         header('location: index.php');

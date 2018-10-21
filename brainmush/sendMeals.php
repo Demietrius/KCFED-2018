@@ -9,7 +9,7 @@ if ($result->num_rows > 0) {
     $userMeals = array();
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        $userMeals[] = $row;
+        array_push($userMeals, $row);
         //echo "id: " . $row["user_id"]. " - Name: " . $row["meal_id"]. " " .$row["meal_type"]. "<br>";
     }
     $jsonUserMeals = json_encode($userMeals);
