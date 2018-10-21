@@ -20,33 +20,31 @@
 
   <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><h3>header1</h3></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">tab1
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">tab2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">tab3</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">tab4</a>
-            </li>
-          </ul>
-        </div>
+          <a class="navbar-brand" href="#"><h3>tasteBuds</h3></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="menu.php">My Menu</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="grocerylist.php">Grocery List</a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="preferences.php">Preferences</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.php?logout='1'">Log out</a>
+                  </li>
+              </ul>
+          </div>
       </div>
-    </nav>
+  </nav>
 
     <!-- Page Content -->
     
@@ -65,15 +63,15 @@
 
     <!-- numOfMeals -->
     <p class="h4 mb-4">Number of Meals:</p>
-    <input type="number" id="numMeals" class="browser-default  mb-4 col-lg-4 col-md-6 col-sm-6" value="3">
+    <input type="number" id="numMeals" name="numMeals" class="browser-default  mb-4 col-lg-4 col-md-6 col-sm-6" value="3">
 
     <!-- Calories -->
     <p class="h4 mb-4">Calories:</p>
-    <input type="number" id="Calories" class="browser-default  mb-4 col-lg-4 col-md-6 col-sm-6" value="2000">
+    <input type="number" id="calories" name="calories" class="browser-default  mb-4 col-lg-4 col-md-6 col-sm-6" value="2000">
     <br/>
     <!-- selector -->
     <p class="h4 mb-4">Diet type:</p>
-    <select id="dietType" class="browser-default custom-select mb-4 col-lg-4 col-md-6 col-sm-6">
+    <select id="dietType" name="dietType" class="browser-default custom-select mb-4 col-lg-4 col-md-6 col-sm-6">
         <option value="" disabled>Choose option</option>
         <option value="1" selected>Babies</option>
         <option value="2">Puppies</option>

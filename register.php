@@ -19,7 +19,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#"><h3>header1</h3></a>
+        <a class="navbar-brand" href="#"><h3>tasteBuds</h3></a>
 
     </div>
 </nav>
@@ -32,7 +32,7 @@
                     <form class="form-signin" method="post" action="register.php">
                         <?php include('errors.php'); ?>
                         <div class="form-label-group">
-                            <input type="email" name="email" value="<?php echo $email; ?>"class="form-control" placeholder="JohnDoe@somewhere.com" required autofocus>
+                            <input type="email" name="email" value="<?php echo $email; ?>" class="form-control" placeholder="JohnDoe@somewhere.com" required autofocus>
                             <label for="email">Email address</label>
                         </div>
 
@@ -65,7 +65,6 @@
 
 
 
-    <!-- /.container -->
-</footer>
+
 </body>
 </html>
