@@ -1,31 +1,33 @@
 
 <?php
     require("./includes/header.php");
-    echo '<script src="./brainmush/manageMeals.js"></script>';
+    echo '<script src="./brainmush/manageMeals.js"></script>'; //important!***
     //echo '<script type="text/javascript">GetRecipeFromId("80ffa6f067ed26dd624de1afcc838448");</script>';
-
     include("./brainmush/sendMeals.php");
 ?>
     <!-- Page Content -->
+
     <div class="container ">
 
       <!-- Page Heading -->
 
-
-        
-        
-        
-      
       <!-- /.row -->
         
 <div id="carouselExampleControls" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-
     <h1 class="my-4">Day1
         <small>Secondary Text</small>
     </h1>
       <div class="row">
+
+          <script type="text/javascript">
+              $(function() {
+                  var jsonUserMeals = '<?php echo $jsonUserMeals; ?>';
+                  let userMeals = JSON.parse(jsonUserMeals);
+                  console.log(userMeals);
+              });
+          </script>
           <?php
             /* i % 3 == 0
                 if i > 0 then end last carousel

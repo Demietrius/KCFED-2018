@@ -34,3 +34,10 @@ VALUES ("balanced"),
 	("vegan"),
 	("vegetarian"),
 	("wheat-free");
+
+INSERT INTO preference (api_parameter)
+VALUES ("peanut-free"),
+	("high-protein"),
+	("low-carb"),
+	("gluten-free"),
+	("paleo");

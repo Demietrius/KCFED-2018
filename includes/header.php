@@ -6,10 +6,10 @@
     if(isset($_GET['logout'])) {
         session_destroy();
         unset($_SESSION['email']);
+        unset($_SESSION['uid']);
         header("location: login.php");
     }
-
-     require ("mysqli_connect.php");
+    require ("mysqli_connect.php");
 ?>
 
 <!DOCTYPE html>
@@ -25,6 +25,7 @@
     <!-- Custom styles for this template -->
     <link href="css/4-col-portfolio.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/custom.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 <!-- Navigation -->
