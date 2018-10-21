@@ -1,204 +1,77 @@
 <?php require("./includes/header.php"); ?>
 
     <!-- Page Content -->
-    
 
 
 
-<div class="container">
-<!-- Material unchecked -->
-    
-    
+
+<div class="container col-sm-9 col-md-7 col-lg-3 mx-auto">
+    <!-- Material unchecked -->
+
+
     <br/>
     <br/>
-    
+
     <div class="portfolio-item" id="item">
-          <div class="card h-100">
-            <div class="card-body mx-auto">
+        <div class="text-center border border-light  bg-light  ">
+            <div class="card-body">
                  <h4 class="card-title">Grocery List:</h4>
                 
                 <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
                     <label class="checkbox"><input type="checkbox" value="">Option 1</label>
                     <span class="card-text" >Item:         </span>
                     <span class="card-text" >Amount:         </span>
-                    <span class="card-text" >Units:            </span> <br/>
+                    <br/><br/>
                 </div>
-                
-                <div id="item1">
+
+                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
                     <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
+                    <span class="card-text" >Item:         </span>
+                    <span class="card-text" >Amount:         </span>
+                    <br/><br/>
                 </div>
-                
-                <div id="item1">
+
+                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
                     <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
+                    <span class="card-text" >Item:         </span>
+                    <span class="card-text" >Amount:         </span>
+                    <br/><br/>
                 </div>
-                
-                <div id="item1">
+
+                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
                     <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
+                    <span class="card-text" >Item:         </span>
+                    <span class="card-text" >Amount:         </span>
+                    <br/><br/>
                 </div>
-                
-                
-                <div id="item1">
+
+
+                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
                     <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
+                    <span class="card-text" >Item:         </span>
+                    <span class="card-text" >Amount:         </span>
+                    <br/><br/>
                 </div>
-                
-                <div id="item1">
+
+                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
                     <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
+                    <span class="card-text" >Item:         </span>
+                    <span class="card-text" >Amount:         </span>
+                    <br/><br/>
                 </div>
-                
-                <div id="item1">
+
+                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
                     <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
+                    <span class="card-text" >Item:         </span>
+                    <span class="card-text" >Amount:         </span>
+                    <br/><br/>
                 </div>
-                
-                <div id="item1">
+
+                <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->
                     <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
-                </div>
-                
-                <div id="item1">
-                    <label class="checkbox"><input type="checkbox" value="">Option 1</label>
-                    <span class="card-text" id="Item">Item:         </span>
-                    <span class="card-text" id="amount">Amount:         </span>
-                    <span class="card-text" id="unit">Units:            </span> <br/>
+                    <span class="card-text" >Item:         </span>
+                    <span class="card-text" >Amount:         </span>
+                    <br/><br/>
                 </div>
                 
                 

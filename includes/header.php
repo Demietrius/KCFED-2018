@@ -25,7 +25,7 @@
     <link href="css/4-col-portfolio.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/custom.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg">
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
     <div class="container">
