@@ -15,6 +15,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/4-col-portfolio.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/custom.css" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
@@ -34,13 +35,13 @@
 
                     <form class="form-signin" method="post" action="login.php" >
                         <div class="form-label-group">
-                            <input type="text" id="email" name="email" class="form-control" placeholder="JohnDoe@somewhere.com" required autofocus>
                             <label for="email">Email address</label>
-                        </div>
+                            <input type="text" id="email" name="email" class="form-control" placeholder="JohnDoe@somewhere.com" required autofocus>
+                                                    </div>
 
                         <div class="form-label-group">
-                            <input type="password" id="password" name="password" class="form-control" placeholder="*****" required>
                             <label for="password">Password</label>
+                            <input type="password" id="password" name="password" class="form-control" placeholder="*****" required>
                         </div>
 
                         <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" name="login_user">Sign in</button>
