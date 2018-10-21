@@ -8,4 +8,4 @@ That little bit of relaxation and fun, that is, if you didn’t have to find the
 With our new app, TasteBud, we make it so easy you don’t even have to think.  Using a simple, streamlined interface, TaseBud will plan your meals pulling from an extensive library that tailors to your personal tastes and preferences. Whether you’re lactose intolerant, gluten free, or just incredibly picky, we have the solution that fits your needs – and once we auto-generate your shopping list the only thing you need to do is go to the store.
 
 
-Created using PHP SQL JSON JQuery, AJAX,HTML ,CSS, and Bootstrap.
+Created using:  PHP, SQL, JSON, JQuery, AJAX, HTML ,CSS, and Bootstrap.
