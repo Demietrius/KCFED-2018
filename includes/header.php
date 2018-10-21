@@ -29,7 +29,7 @@
 </head>
 <body>
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top ">
     <div class="container">
 
         <img  src="logo.png" alt="">
@@ -54,3 +54,4 @@
         </div>
     </div>
 </nav>
+
