@@ -36,16 +36,17 @@
                    <h4 class="card-title" id="name_0"> <!-- name ID //output meal name and a href here -->
                        <a href="#">Project One</a>
                    </h4>
+                   <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                       <label class="btn btn-success ">
+                           <input type="radio" name="options" id="option1" autocomplete="off" checked> Like
+                       </label>
+                       <label class="btn btn-danger">
+                           <input type="radio" name="options" id="option2" autocomplete="off"> Dislike
+                       </label>
 
-                   <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
-                       Like
-                   </button>
-                   <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
-                       Dislike
-                   </button>
-                   <button type="button" class="btn btn-dark"  aria-pressed="false" >
-                       Re-roll
-                   </button>
+
+                   </div>
+                   <button type="button" class="btn btn-primary">Reroll</button>
                </div>
             </div>
           </div>
