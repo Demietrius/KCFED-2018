@@ -54,14 +54,15 @@
 
 </script>
     <!-- Page Content -->
-
+<br/>
+<br/>
     <div class="container ">
 
       <!-- Page Heading -->
 
       <!-- /.row -->
         
-<div id="carouselExampleControls" class="carousel slide">
+<div id="carouselExampleControls" class="carousel slide" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active" id="day-1">
     <h1 class="my-4">Day1

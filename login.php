@@ -12,12 +12,13 @@
     <!-- Custom styles for this template -->
     <link href="css/4-col-portfolio.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/custom.css" rel="stylesheet">
+
 </head>
 <body class="bg">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
     <div class="container">
-        <img src="http://www.download82.com/images/produse/iconuri/limewire.png" alt="">
+
         <img src="logo.png" alt="">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
