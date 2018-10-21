@@ -1,47 +1,302 @@
+<?php require("./includes/header.php"); ?>
 
-<?php
-session_start();
+    <!-- Page Content -->
+    <div class="container ">
 
-if (!isset($_SESSION['email'])) {
-    $_SESSION['msg'] = "You must log in first";
-    header('location: login.php');
-}
-if (isset($_GET['logout'])) {
-    session_destroy();
-    unset($_SESSION['email']);
-    header("location: login.php");
-}
-?>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+      <!-- Page Heading -->
+      
 
-<div class="header">
-    <h2>Home Page</h2>
-</div>
-<div class="content">
-    <!-- notification message -->
-    <?php if (isset($_SESSION['success'])) : ?>
-        <div class="error success" >
-            <h3>
-                <?php
-                echo $_SESSION['success'];
-                unset($_SESSION['success']);
-                ?>
-            </h3>
+        
+        
+        
+      
+      <!-- /.row -->
+        
+<div id="carouselExampleControls" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <h1 class="my-4">Day1
+        <small>Secondary Text</small>
+      </h1>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+          <div class="card h-80">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+               <div class="container " style="align-content: center">
+                   <h4 class="card-title">
+                       <a href="#">Project One</a>
+                   </h4>
+
+                   <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                       Like
+                   </button>
+                   <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                       Dislike
+                   </button>
+                   <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                       Re-roll
+                   </button>
+
+               </div>
+
+
+            </div>
+          </div>
         </div>
-    <?php endif ?>
 
-    <!-- logged in user information -->
-    <?php  if (isset($_SESSION['email'])) : ?>
-        <p>Welcome <strong><?php echo $_SESSION['email']; ?></strong></p>
-        <p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
-    <?php endif ?>
+
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
+          </div>
+          
+      </div>
+    </div>
+    <div class="carousel-item">
+        <h1 class="my-4">Day 2
+        <small>Secondary Text</small>
+      </h1>
+      <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false">
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
+          </div>
+          
+      </div>
+    </div>
+    <div class="carousel-item">
+        <h1 class="my-4">Day 3
+        <small>Secondary Text</small>
+      </h1>
+      <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 col-sm-6 portfolio-item" id="meal_1">
+              <div class="card h-80">
+                  <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                  <div class="card-body">
+                      <div class="container " style="align-content: center">
+                          <h4 class="card-title">
+                              <a href="#">Project One</a>
+                          </h4>
+
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Like
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Dislike
+                          </button>
+                          <button type="button" class="btn btn-dark" data-toggle="button" aria-pressed="false" >
+                              Re-roll
+                          </button>
+
+                      </div>
+
+
+                  </div>
+              </div>
+          </div>
+          
+      </div>
+    </div>
+  </div>
+  
 </div>
+<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+      
 
-</body>
+    </div>
+    <!-- /.container -->
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
 </html>
