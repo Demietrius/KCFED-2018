@@ -18,7 +18,7 @@
       
       <!-- /.row -->
         
-<div id="carouselExampleControls" class="carousel slide">
+<div id="carouselExampleControls" class="carousel slide" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
 

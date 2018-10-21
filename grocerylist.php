@@ -5,7 +5,7 @@
 
 
 
-<div class="container col-sm-9 col-md-7 col-lg-3 mx-auto">
+<div class="container col-sm-9 col-md-7 col-lg-3 mx-auto  ">
     <!-- Material unchecked -->
 
 
@@ -14,7 +14,7 @@
 
     <div class="portfolio-item" id="item">
         <div class="text-center border border-light  bg-light  ">
-            <div class="card-body">
+            <div class="card-body ">
                  <h4 class="card-title">Grocery List:</h4>
                 
                 <div id="ingredient_0"> <!-- ingredient ID // output ingredient properties here -->

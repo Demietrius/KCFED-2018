@@ -17,7 +17,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
     <div class="container">
-        <img src="http://www.download82.com/images/produse/iconuri/limewire.png" alt="">
+
         <img src="logo.png" alt="">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
