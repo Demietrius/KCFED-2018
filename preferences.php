@@ -33,9 +33,9 @@
                 <p class="h4 mb-4">Diet type:</p>
                 <select id="dietType" name="dietType" class="browser-default custom-select mb-4 col-lg-4 col-md-6 col-sm-6">
                     <option value="" disabled>Choose option</option>
-                    <option value="1" selected>Babies</option>
-                    <option value="2">Puppies</option>
-                    <option value="3">Kittens request</option>
+                    <option value="1" selected>Regular</option>
+                    <option value="2">Low Fat</option>
+                    <option value="3">Low Carb</option>
                     <option value="4">Vegan</option>
                 </select>
 
@@ -45,21 +45,21 @@
                 <div class="custom-control custom-checkbox mb-4">
 
                     <input type="checkbox" class="custom-control-input" id="checkbox1">
-                    <label class="custom-control-label" for="checkbox1">optional1</label>
+                    <label class="custom-control-label" for="checkbox1">Peanut Free</label>
 
                 </div>
 
                 <div class="custom-control custom-checkbox mb-4">
 
                     <input type="checkbox" class="custom-control-input" id="checkbox2">
-                    <label class="custom-control-label" for="checkbox2">optional2</label>
+                    <label class="custom-control-label" for="checkbox2">Gluten Free</label>
 
                 </div>
 
                 <div class="custom-control custom-checkbox mb-4">
 
                     <input type="checkbox" class="custom-control-input" id="checkbox3">
-                    <label class="custom-control-label" for="checkbox3">optional3</label>
+                    <label class="custom-control-label" for="checkbox3">Dairy Free</label>
 
                 </div>
 
