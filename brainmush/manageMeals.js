@@ -117,7 +117,7 @@ function GenerateMeals()
     {
         let arrayFromNum = GetAttributesFromNum(i);
 
-        makeCORSRequest(arrayFromNum[0], arrayFromNum[1]);
+        makeCORSRequest(arrayFromNum[0], arrayFromNum[1]);//meal-type, meal-array
     }
 
     for (let i=0; i<3; i++)
@@ -128,6 +128,45 @@ function GenerateMeals()
             SendMealToServer(arrayFromNum[1][j], arrayFromNum[0]);
     }
 
+}
+
+function GenerateMeal(mealType) {
+    let newMeal;
+
+    let query = 'https://api.edamam.com/search?q=' +
+        mealType +
+        '&app_id=' + ID +
+        '&app_key=' + KEY +
+        '&from=0&to=100';
+
+    var xhr = createCORSRequest('GET', query);
+    if (!xhr)
+    {
+        alert('CORS not supported');
+        return;
+    }
+
+    // Response handlers.
+    xhr.onload = function()
+    {
+
+        // Parse json string to object
+        let response = JSON.parse(xhr.responseText);
+
+        let arr = response.hits;
+        arr = shuffle(arr);
+
+        newMeal = arr[0].recipe;
+    };
+
+    xhr.onerror = function()
+    {
+        console.log('Woops, there was an error making the request.');
+    };
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.send();
+
+    return newMeal;
 }
 
 function shuffle(array) {
@@ -189,7 +228,7 @@ function makeCORSRequest(mealType, mealArr)
                 mealType +
                 '&app_id=' + ID +
                 '&app_key=' + KEY +
-                '&from=0&to=10';
+                '&from=0&to=100';
 
     var xhr = createCORSRequest('GET', query);
     if (!xhr)

@@ -7,7 +7,7 @@ $email    = "";
 $errors = array();
 
 // REGISTER USER
-if (isset($_POST['reg_user'])) {
+if(isset($_POST['reg_user'])) {
     // receive all input values from the form
     $email = mysqli_real_escape_string($dbc, $_POST['email']);
     $password_1 = mysqli_real_escape_string($dbc, $_POST['password_1']);

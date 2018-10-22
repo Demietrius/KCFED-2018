@@ -14,10 +14,11 @@
         let breakfastMeals = getArrayByMealType("breakfast", userMeals);
         let lunchMeals = getArrayByMealType("lunch", userMeals);
         let dinnerMeals = getArrayByMealType("dinner", userMeals);
+        let j = 0;
         for(let i = 0; i < 7; i++) {
-            addMealCard(i + 1, breakfastMeals[i]);
-            addMealCard(i + 1, lunchMeals[i]);
-            addMealCard(i + 1, dinnerMeals[i]);
+            addMealCard(i + 1, breakfastMeals[i], "breakfast", j++);
+            addMealCard(i + 1, lunchMeals[i], "lunch", j++);
+            addMealCard(i + 1, dinnerMeals[i], "dinner", j++);
         }
     });
 
@@ -33,32 +34,45 @@
         return outMeals;
     }
 
-    function addMealCard(dayNum, userMeal) {
-        let cardHtml = "<div class=\"col-lg-4 col-md-6 col-sm-6 portfolio-item\" id=\"meal_1\">\n" +
-            "          <div class=\"card h-80\">\n" +
-            "            <a href=\"" + userMeal.url + "\" target=\"_blank\" id=\"img_0\"><img class=\"card-img-top\" src=\"" + userMeal.image + "\" alt=\"\"></a>  <!-- img ID//output img src here-->\n" +
-            "            <div class=\"card-body\">\n" +
-            "               <div class=\"container \" style=\"align-content: center\">\n" +
-            "                   <h4 class=\"card-title\" id=\"name_0\"> <!-- name ID //output meal name and a href here -->\n" +
-            "                       <a href=\"#\">" + userMeal.label + "</a>\n" +
-            "                   </h4>\n" +
-            "                   <div class=\"btn-group btn-group-toggle\" data-toggle=\"buttons\">\n" +
-            "                       <label class=\"btn btn-success \">\n" +
-            "                           <input type=\"radio\" name=\"options\" id=\"option1\" autocomplete=\"off\" checked> Like\n" +
-            "                       </label>\n" +
-            "                       <label class=\"btn btn-danger\">\n" +
-            "                           <input type=\"radio\" name=\"options\" id=\"option2\" autocomplete=\"off\"> Dislike\n" +
-            "                       </label>\n" +
-            "                   </div>\n" +
-            "                   <button type=\"button\" class=\"btn btn-primary\">Reroll</button>\n" +
-            "               </div>\n" +
-            "            </div>\n" +
-            "          </div>\n" +
-            "        </div>";
+    function addMealCard(dayNum, userMeal, mealType, formId) {
+        let cardHtml = "<form onsubmit='event.preventDefault(); reroll(this);' enctype='multipart/form-data' method='post' class='col-lg-4 col-md-6 col-sm-6 portfolio-item' id='meal_" + formId + "'>" +
+            "          <div class='card h-80'>" +
+            "            <a href='" + userMeal.url + "' target='_blank' id='img_0' name='meal-url'><img class='card-img-top' src='" + userMeal.image + "' name='meal-image' alt=''></a>  <!-- img ID//output img src here-->\n" +
+            "            <div class='card-body'>" +
+            "               <div class='container ' style='align-content: center'>" +
+            "                   <h4 class='card-title' id='name_0'> <!-- name ID //output meal name and a href here -->" +
+            "                       <a href='#' name='meal-label'>" + userMeal.label + "</a>" +
+            "                   </h4>" +
+            "                   <div class='btn-group btn-group-toggle' data-toggle='buttons'>" +
+            "                       <label class='btn btn-success '>" +
+            "                           <input type='radio' name='options' id='option1' autocomplete='off' checked> Like" +
+            "                       </label>" +
+            "                       <label class='btn btn-danger'>" +
+            "                           <input type='radio' name='options' id='option2' autocomplete='off'> Dislike" +
+            "                       </label>" +
+            "                   </div>" +
+            "                   <input type='submit' class='btn btn-primary' name='reroll-submit' value='Reroll'  />" +
+            "                   <input type='hidden' name='meal-id' value='" + GetRecipeId(userMeal.uri) + "'>" +
+            "                   <input type='hidden' name='meal-type' value='" + mealType + "'>" +
+            "               </div>" +
+            "            </div>" +
+            "          </div>" +
+            "        </form>";
         $("#card-" + dayNum ).append(cardHtml);
     }
 
+    function reroll(form) {
+        let formId = $(form).attr('id');
+        let mealId = $(form).find('input[name="meal-id"]').val();
+        let mealType = $(form).find('input[name="meal-type"]').val();
+        let newMeal = GenerateMeal(mealType);
+        $(form).find('input[name="meal-id"]').val(GetRecipeId(newMeal.uri));
+        $(form).find('a[name="meal-url"]').attr('href', newMeal.url);
+        $(form).find('img[name="meal-image"]').attr('src', newMeal.image);
+        $(form).find('a[name="meal-label"]').html(newMeal.label);
+    }
 </script>
+
     <!-- Page Content -->
 <br/>
 <br/>
